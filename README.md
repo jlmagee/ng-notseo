@@ -8,3 +8,5 @@ Seeing repeated recitations of these assertions has become tiring so I've suppli
 The project is deployed at http://ng-notseo.appspot.com/ for inspection.
 
 Feel free to clone the project, add your own Google Verification document, deploy on your favorite platform and inspect the results of a Fetch and Render in the Search Console.
+
+See FetchAndRenderResults.html for my results.
