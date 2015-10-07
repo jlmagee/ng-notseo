@@ -1,0 +1,33 @@
+application: ng-notseo
+version: 1
+runtime: python27
+threadsafe: true
+api_version: 1
+
+default_expiration: "2m"
+
+handlers:
+- url: /css
+  static_dir: css
+  mime_type: text/css; charset=utf-8
+
+- url: /js
+  static_dir: js
+  mime_type: application/javascript; charset=utf-8
+
+- url: /partials
+  static_dir: partials
+  mime_type: text/html; charset=utf-8
+
+- url: /google123fd57425599135\.html
+  static_files: google123fd57425599135.html
+  upload: google123fd57425599135\.html
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /?(.+)/?
+  static_files: index.html
+  upload: index\.html
+  mime_type: text/html; charset=utf-8
